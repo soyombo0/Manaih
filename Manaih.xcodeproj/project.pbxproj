@@ -15,6 +15,7 @@
 		3BFA7B5E29A012E600E8B234 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3BFA7B5D29A012E600E8B234 /* FirebaseFirestore */; };
 		3BFA7B6029A012E600E8B234 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3BFA7B5F29A012E600E8B234 /* FirebaseFirestoreSwift */; };
 		3BFA7B6229A0141C00E8B234 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BFA7B6129A0141C00E8B234 /* GoogleService-Info.plist */; };
+		3BFA7B6629A015B600E8B234 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA7B6529A015B600E8B234 /* Info.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3BFA7B5029A00E4000E8B234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BFA7B5329A00E4000E8B234 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BFA7B6129A0141C00E8B234 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3BFA7B6529A015B600E8B234 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 		3BFA7B4B29A00E3F00E8B234 /* Manaih */ = {
 			isa = PBXGroup;
 			children = (
+				3BFA7B6429A015A000E8B234 /* Model */,
+				3BFA7B6329A0159900E8B234 /* View */,
 				3BFA7B4C29A00E3F00E8B234 /* ManaihApp.swift */,
-				3BFA7B4E29A00E3F00E8B234 /* ContentView.swift */,
 				3BFA7B6129A0141C00E8B234 /* GoogleService-Info.plist */,
 				3BFA7B5029A00E4000E8B234 /* Assets.xcassets */,
 				3BFA7B5229A00E4000E8B234 /* Preview Content */,
@@ -74,6 +77,22 @@
 				3BFA7B5329A00E4000E8B234 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BFA7B6329A0159900E8B234 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA7B4E29A00E3F00E8B234 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BFA7B6429A015A000E8B234 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA7B6529A015B600E8B234 /* Info.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFA7B6629A015B600E8B234 /* Info.swift in Sources */,
 				3BFA7B4F29A00E3F00E8B234 /* ContentView.swift in Sources */,
 				3BFA7B4D29A00E3F00E8B234 /* ManaihApp.swift in Sources */,
 			);

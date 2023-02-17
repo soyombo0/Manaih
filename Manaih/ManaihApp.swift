@@ -10,6 +10,11 @@ import Firebase
 
 @main
 struct ManaihApp: App {
+    
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
